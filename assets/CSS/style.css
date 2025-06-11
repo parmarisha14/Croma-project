@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* headers */
+.navbar{
+    position: static;
+    padding:20px;
+    align-content: center;
+   
+}
+.logo{
+    width:130px;
+    height: 30px;
+    margin-left:60px;
+    margin-right:20px;
+}
+form{
+    width:40%;
+
+}
+/* item Section */
+#scroll-box{
+    scrollbar-width: none;
+}
+.item-card img{
+    height: 130px ;
+    
+}
+
+
+/* Bank offer Section */
+.bank-card-container {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+
+}
+.bank-collection{
+    animation: scroll-left 15s linear infinite;
+    display: inline-flex;
+    
+}
+.bank-collection img{
+    height: 100px;
+    margin: 0 10px;
+    border-radius: 12px;
+    background: #fff;
+    padding: 5px;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* footer */
+form .input-group input{
+  width: 100%;
+
+}
